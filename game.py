@@ -6,7 +6,7 @@ def board_is_full():
            if value == ' ':
                return False
    return True
-
+print("Hello  my World")
 def print_board():
     for row in board:
         print(Fore.CYAN+'-'*10)
